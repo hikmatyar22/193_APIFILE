@@ -1,6 +1,6 @@
 // controllers/komikController.js
 const db = require('../models');
-const komikService = require('../services/komikService');
+const komikService = require('../services/komik.Service');
 
 async function createKomik(req, res) {
     try {
