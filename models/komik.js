@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
         primaryKey: true,
         autoIncrement: true
       },
-      titel: {
+      title: {
         type: DataTypes.STRING,
         allowNull: false
       },
@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
 
     imageType: DataTypes.STRING,
     imageName: DataTypes.STRING,
-    imageName: DataTypes.BLOB('long'),
+    imageData: DataTypes.BLOB('long'),
     },
     {
       tableName: "komik",
